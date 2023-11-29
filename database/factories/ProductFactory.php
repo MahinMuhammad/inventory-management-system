@@ -18,7 +18,7 @@ class ProductFactory extends Factory
     public function definition(): array
     {
         return [
-            "name"=> Str::random(10).'@gmail.com',
+            "name"=> Str::random(10),
             'quantity'=> rand(1,1000),
             'price'=> rand(100,100000),
         ];
